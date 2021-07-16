@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color:#D14F7B;
+    background-size: cover;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+  
+  /* Container for flexboxes */
+  section {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background-color: #AA6F5D;
+    padding: 0px;
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 1%;
+    text-decoration: none;
+
+  }
+  nav ul li{
+      padding: 5%;
+      text-decoration: none;
+  }
+  nav ul li a{
+      text-decoration: none;
+      color:honeydew;
+      background-color: #AA6F5D;
+      width: 100%;
+      font-size: larger;
+      padding: 1%;
+      border-radius: 2%;
+  }
+  
+
+  
+  /* Style the content */
+  article {
+    background-image: url(pic15.jpg);
+    background-size: cover;
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    padding: 10px;
+  }
+  
+  
+  
+  /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }

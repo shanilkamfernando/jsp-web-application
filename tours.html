@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>Tours</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="tours.css">
+         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+         <link rel="stylesheet" href="../build/web/privacypolicy.css" type="text/css"/>
+
+    </head>
+    <body>
+        <div class="w3-top w3-center w3-darkblue">
+  <div class="w3-bar  w3-padding w3-card" style="letter-spacing:4px;">
+      <a href="homepage.jsp" class="w3-bar-item w3-button"><font color="white">Plan your travel with confidence.</font></a>
+  </div></div>
+        <br><br>
+        
+        <div class="main">
+		<div class="content">
+		<h1>Explore Our Fares</h1>
+                        <center><img src="tours.jpg" height="500" width="600"></center>
+			<br>
+			<br>
+			<br>
+		<h2>Our Flight Schedules for 2021.04.27</h2>
+			<img src="flights.jpg" height="300" width="500">
+			<br>
+			<br>
+			<form name="form">
+			<table border="5px">
+					<tr>
+						<td>From:</td>
+						<td colspan="4">
+							<input type="text" name="name" placeholder="Input Origin" class="input" id="name">
+						</td>
+					</tr>
+					<tr>
+						<td>To:</td>
+						<td colspan="4">
+							<input type="text" name="address" placeholder="Input Destination." class="input" id="address">
+						</td>
+					</tr>
+					<tr>
+						<td>Budget:</td>
+						<td colspan="4">
+							<input type="text" name="email" placeholder="Enter the amount in SriLankan Rupees." class="input" id="email">
+						</td>
+					</tr>
+					
+					<tr>
+						<td>Destination Countries:</td>
+						<td colspan="8">
+							<select class="input" name="tor">
+						        <option value="None">None</option>
+						        <option value="United Arab Emirates">United Arab Emirates</option>
+					            <option value="United Kingdom">United Kingdom</option>
+								<option value="United States of America">United States of America</option>
+							    <option value="Canada">Canada</option>
+								<option value="China">China</option>
+							    <option value="Russia">Russia</option>
+							    <option value="Australia">Australia</option>
+							    <option value="Baharain">Baharain</option>
+							    <option value="France">France</option>
+							    <option value="Korea">Korea</option>
+							    <option value="Germany">Germany</option>
+							    <option value="Hong kong">Hong Kong</option>
+							    <option value="Indonesia">Indonesia</option>
+							    <option value="Israel">Israel</option>
+							    <option value="Italy">Italy</option>
+							    <option value="Japan">Japan</option>
+							    <option value="Kuwait">Kuwait</option>
+							    <option value="Malaysia">Malaysia</option>
+							    <option value="Nepal">Nepal</option>
+							    <option value="New Zealand">New Zealand</option>
+							    <option value="Pakistan">Pakistan</option>
+							    <option value="Quatar">Quatar</option>
+							    <option value="Saudi Arabia">Saudi Arabia</option>
+							    <option value="Singapore">Singapore</option>
+							    <option value="South Africa">South Africa</option>
+							    <option value="Spain">Spain</option>
+							    <option value="Switzerland">Switzerland</option>
+							    <option value="Thailand">Thailand</option>
+
+
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Preference:</td>
+						<td colspan="2">
+							<input type="radio" name="preference" value="Business Class"> Business Class
+						</td>
+						<td colspan="2">
+							<input type="radio" name="preference" value="Economy Class"> Economy Class
+						</td>
+					</tr>
+					<tr>
+
+						
+					
+					<tr>
+						<td>Comments:</td>
+						<td colspan="4">
+							<textarea class="input text" placeholder="Comments." name="comments"></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td align="center" colspan="2">
+							<input type="submit" name="submit" class="btn" id="submit" value="Submit" onclick="formValidation();">
+						</td>
+						<td align="center" colspan="3">
+							<input type="reset" name="cancel" class="btn" id="cancel" value="Cancel"></td>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+        
+        <footer class="w3-center w3-dark blue w3-padding-32">
+            <p><font color="white">Copyrights ® 2021 Phoenix Airlines PVT. All rights reserved </p>
+        </footer>
+    </body>
+</html>

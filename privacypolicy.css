@@ -1,0 +1,23 @@
+body{
+    background-color: teal;
+}
+.poli h1{
+    font-family: Bahnschrift SemiBold;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;    
+}
+h4{
+    color: #fff;
+    font-family:Iskoola Pota;
+    font-weight: bolder;
+    font-size: 30px;
+   
+}
+.information {
+    text-align: justify;
+    color:#fff;
+    font-size:18px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
